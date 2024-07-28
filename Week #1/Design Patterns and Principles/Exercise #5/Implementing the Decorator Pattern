@@ -1,3 +1,5 @@
+Implementing the Decorator Pattern
+
 Scenario:
 You are developing a notification system where notifications can be sent via multiple channels (e.g., Email, SMS). 
 Use the Decorator Pattern to add functionalities dynamically.
