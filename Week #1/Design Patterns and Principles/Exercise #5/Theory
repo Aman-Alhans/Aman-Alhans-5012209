@@ -1,0 +1,8 @@
+Scenario:
+You are developing a notification system where notifications can be sent via multiple channels (e.g., Email, SMS). 
+Use the Decorator Pattern to add functionalities dynamically.
+
+-> Decorator Pattern allows adding new behaviour and functions to an object dynamically by wrapping it with on or more decorator objects.
+-> It provides an alternate way to subclasses for extending functionalty for object at runtime.
+
+The practical implementation can be accessed at: Exercise #5/DecoratorPatternExample/src/noti/
