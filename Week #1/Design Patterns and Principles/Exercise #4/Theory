@@ -1,0 +1,8 @@
+Scenario:
+You are developing a payment processing system that needs to integrate with multiple third-party payment gateways with different interfaces. 
+Use the Adapter Pattern to achieve this.
+
+-> Adapter Pattern allows incompatible interface to work together by wrapping their classes together.
+-> It acts as a bridge between two interfaces.
+
+The practical implementation can be accessed at: Exercise #4/AdapterPatternExample/bin/adapter/
