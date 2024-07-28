@@ -1,0 +1,7 @@
+Scenario:
+You are developing a home automation system where commands can be issued to turn devices on or off. Use the Command Pattern to achieve this.
+
+-> Command Pattern turns a request into a stand-alone object.
+-> It allow parameterization of clients with different requests, queuing of requests and support of undoable operations.
+
+The practical implementation can be accessed at: Exercise #9/CommandPatternExample/src/command/
