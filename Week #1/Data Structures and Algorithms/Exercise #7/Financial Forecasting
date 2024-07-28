@@ -1,0 +1,16 @@
+Financial Forecasting
+
+Scenario:
+You are developing a financial forecasting tool that predicts future values based on past data.
+
+o	Explain the concept of recursion and how it can simplify certain problems.
+-> Recursion is a concept of programming where it solves smaller instances of problem eventually leading to the final solution.
+-> Eg. Fibonnaci Series, Factorial of a number etc.
+
+o	Discuss the time complexity of your recursive algorithm.
+-> As n recursive calls are taking place in my algorithm, the time complexity is O(n).
+
+o	Explain how to optimize the recursive solution to avoid excessive computation.
+-> Recursive solution can be made optimised by storing the result of previous recursive call.
+
+The practical implementaion can be accessed at Exercise #7/FinancialForecasting/src/financial/
