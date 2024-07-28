@@ -1,0 +1,10 @@
+Scenario:
+You are developing a simple web application for managing student records using the MVC pattern.
+
+-> Model-View-Controller (MVC) Pattern separates application logic into three components:
+  1. The Model ( Data and Business Logic )
+  2. The View ( User - Interface )
+  3. The Controller ( Handles User Input and Updates Model & View.
+-> It promotes separation of concerns and facilitates modular development.
+
+The practical implementation can be accessed at: Exercise #10/MVCPatternExample/src/MVC/
