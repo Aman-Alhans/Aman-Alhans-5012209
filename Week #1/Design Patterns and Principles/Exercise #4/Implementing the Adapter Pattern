@@ -1,3 +1,5 @@
+Implementing the Adapter Pattern
+
 Scenario:
 You are developing a payment processing system that needs to integrate with multiple third-party payment gateways with different interfaces. 
 Use the Adapter Pattern to achieve this.
