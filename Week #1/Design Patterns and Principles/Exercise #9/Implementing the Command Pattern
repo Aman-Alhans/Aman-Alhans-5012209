@@ -1,3 +1,5 @@
+Implementing the Command Pattern
+
 Scenario:
 You are developing a home automation system where commands can be issued to turn devices on or off. Use the Command Pattern to achieve this.
 
