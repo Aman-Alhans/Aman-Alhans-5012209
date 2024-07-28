@@ -1,0 +1,7 @@
+Scenario:
+You are developing a payment system where different payment methods (e.g., Credit Card, PayPal) can be selected at runtime. Use the Strategy Pattern to achieve this.
+
+->  Strategy Pattern defines a family of interchangeable algorithms and encapsulates each into separate classes.
+->  It is useful as the algorithm is selected at runtime based on specific requirements.
+
+The practical implementation can be accessed at: Exercise #8/StrategyPatternExample/src/strategy/
