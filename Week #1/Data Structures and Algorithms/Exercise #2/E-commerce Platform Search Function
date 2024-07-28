@@ -1,0 +1,27 @@
+E-commerce Platform Search Function
+
+Scenario:
+You are working on the search functionality of an e-commerce platform. The search needs to be optimized for fast performance.
+
+o	Explain Big O notation and how it helps in analyzing algorithms.
+-> Big O notation gives us the worst case in time and space complexity of an algorithm.
+-> It gives the upper bound of the algorithm.
+
+o	Describe the best, average, and worst-case scenarios for search operations.
+-> Linear Search:
+  ~ Best Case : O(1) : First element is the target.
+  ~ Average Case : O(n) : Middle element is the target.
+  ~ Worst Case : O(n) : Last element is the target or the element is not present.
+
+-> Binary Search:
+  ~ Best Case : O(1) : Middle element is the target.
+  ~ Average Case : O(log n) : Target is in the middle somewhere.
+  ~ Worst Case L O(log n) : Target is the last element.
+
+o	Compare the time complexity of linear and binary search algorithms.
+-> Linear Search : O(n) time complexity
+-> Binary Search : O(log n) time complexity
+
+o	Discuss which algorithm is more suitable for your platform and why.
+-> For my platform till the database is small or unsorted Linear Search is suitable otherwise Binary Search.
+
