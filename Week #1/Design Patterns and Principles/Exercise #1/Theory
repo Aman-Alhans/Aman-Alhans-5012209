@@ -1,1 +1,7 @@
+Scenario:
+You need to ensure that a logging utility class in your application has only one instance throughout the application lifecycle to ensure consistent logging.
 
+We had to implement the above scenario to show the implementation of Singleton Design Pattern.
+
+-> Singleton Pattern ensures that we only create only one instance of a class and it is only provided global access to.
+-> It is very useful when we want a single shared instance of class throught our software.
