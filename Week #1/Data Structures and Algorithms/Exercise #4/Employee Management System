@@ -1,0 +1,20 @@
+Employee Management System
+
+Scenario:
+You are developing an employee management system for a company. Efficiently managing employee records is crucial.
+
+o	Explain how arrays are represented in memory and their advantages.
+-> Arrays has contiguous memory allocation where each element is stored next to other.
+-> Indexing allow access of element with O(1) time.
+
+o	Analyze the time complexity of each operation (add, search, traverse, delete).
+-> Add : O(1)
+-> Search : O(n)
+-> Traverse : O(n)
+-> delete : O(n)
+
+o	Discuss the limitations of arrays and when to use them.
+-> The size is fixed and intialized while making the array, so when the array is full no new elements can be added.
+-> Insertion and deletion in middle of array is less efficient.
+
+The practical implementation can be accessed at : Exercise #4/EmployeeManagementSystem/src/employee/
