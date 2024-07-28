@@ -1,1 +1,8 @@
+Scenario:
+You are developing a document management system that needs to create different types of documents (e.g., Word, PDF, Excel). Use the 
+Factory Method Pattern to achieve this.
 
+-> Factory Method Pattern provides an interfacce to create objects and it allows subclasses to decide which class they want to instantiate.
+-> It is very useful when we don't want the specify exact class while abstracting creation process and creating objects.
+
+The practical implementation can be accessed at Excercise #2/FactoryMethodPatternExample/bin/
