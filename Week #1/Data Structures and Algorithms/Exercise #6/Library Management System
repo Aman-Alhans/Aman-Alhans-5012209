@@ -1,0 +1,18 @@
+Library Management System
+
+Scenario:
+You are developing a library management system where users can search for books by title or author.
+
+o	Explain linear search and binary search algorithms.
+-> Linear Search - It searches each element from start till the target element is found.
+-> Binary Search - It divides the sorted array from mid and then check the target element. If element is greater than mid, it finds mid of mid + 1 and last element,
+    and if mid is smaller than target, then it find mid og mid - 1 and first element.
+
+o	Compare the time complexity of linear and binary search.
+-> Linear Search : O(n) time complexity
+-> Binary Search : O(log n) time complexity.
+
+o	Discuss when to use each algorithm based on the data set size and order.
+-> Linear Search is preferred over small and unsorted data, but Binary Search is used for large, sorted data because it has logarithmic complexity.
+
+The practical implementation can be accessed at : Exercise #6/LibraryManagementSystem/src/library/
