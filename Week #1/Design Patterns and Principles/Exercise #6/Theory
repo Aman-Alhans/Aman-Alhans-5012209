@@ -1,0 +1,7 @@
+Scenario:
+You are developing an image viewer application that loads images from a remote server. Use the Proxy Pattern to add lazy initialization and caching.
+
+-> Proxy Pattern provides a placeholder for another object to control access to it.
+-> It is useful when we want to add an extra layer of control over access of an object.
+
+The practical implementation can be accessed at: Exercise #6/ProxyPatternExample/src/proxy/
