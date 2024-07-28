@@ -4,4 +4,4 @@ You are developing a system to create complex objects such as a Computer with mu
 -> Builder Pattern provides a way to construct complex objects step by step.
 -> It allows different representation of objects which are created using same contruction process.
 
-The practical implementation can be accessed at: Exercise #3/BuilderPatternExample/bin/builder/
+The practical implementation can be accessed at: Exercise #3/BuilderPatternExample/src/builder/
