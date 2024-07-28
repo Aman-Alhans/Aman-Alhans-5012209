@@ -1,3 +1,5 @@
+Implementing the Builder Pattern
+
 Scenario:
 You are developing a system to create complex objects such as a Computer with multiple optional parts. Use the Builder Pattern to manage the construction process.
 
