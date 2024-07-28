@@ -1,0 +1,32 @@
+Sorting Customer Orders
+
+Scenario:
+You are tasked with sorting customer orders by their total price on an e-commerce platform. This helps in prioritizing high-value orders.
+
+o	Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+-> Bubble Sort
+  ~ In this algorithm the adjacent elements are compared and then swapped if are not in correct order.
+  ~ Time Complexity : O(n^2)
+
+-> Insertion Sort
+  ~ In this algorithm we take an element one by one can keep comparing it with the elements after that till it is at correct position.
+  ~ Time Complexity : O(n^2)
+
+-> Quick Sort
+  ~ In this algorithm we take a pivot element and partiton the array form that element where elements to the right are greater than it and then the elements to the 
+    left are smaller than it.
+  ~ Time Complexity : O(n^2)
+
+-> Merge Sort
+  ~ In this algorithm we split the array into halves till we have single elements in each array and then merge them while comparing and assigning it correct position.
+  ~ Time Complexity : O(n log n)
+
+o	Compare the performance (time complexity) of Bubble Sort and Quick Sort.
+-> Bubble Sort : O(n^2) time complexity
+-> Quick Sort : O(n^2) time complexity
+
+o	Discuss why Quick Sort is generally preferred over Bubble Sort.
+-> Quick Sort is preferred over Bubble Sort as it has better average performance which is O( n log n) against O(n^2).
+-> Both have same worst case complexity but Quick Sort take have less worst case complexity by randomising pivot selection.
+
+The practical implementation can be acceessed at: Exercise #3/SortingCustomerOrders/src/sorting/
