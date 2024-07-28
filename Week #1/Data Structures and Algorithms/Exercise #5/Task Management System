@@ -1,0 +1,20 @@
+Task Management System
+
+Scenario:
+You are developing a task management system where tasks need to be added, deleted, and traversed efficiently.
+
+o	Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+-> Singly Linked List is the linked list where each node only points to the next node.
+-> Double Linked List is the linked list where each node points to the next as well as the previous node.
+
+o	Analyze the time complexity of each operation.
+-> Add : O(n)
+-> Search : O(n)
+-> Traverse : O(n)
+-> Delete : O(n)
+
+o	Discuss the advantages of linked lists over arrays for dynamic data.
+-> Linked lists does not have a fixed size and whenever a new data is to be inserted, make a node of it and then make the last node to point to it.
+-> Used for frequent insertion and deletion.
+
+The practical implementation can be accessed at : Exercise #5/TaskManagementSystem/src/task/
