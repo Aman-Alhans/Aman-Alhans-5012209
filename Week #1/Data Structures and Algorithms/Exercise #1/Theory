@@ -1,0 +1,22 @@
+Inventory Management System
+
+Scenario:
+You are developing an inventory management system for a warehouse. Efficient data storage and retrieval are crucial
+
+o	Explain why data structures and algorithms are essential in handling large inventories.
+-> Data Structures are essential in handling of large inventories as they allow storage and retrieval of data efficiently.
+-> Large inventories can be easily handled efficiently using data structures.
+
+o	Discuss the types of data structures suitable for this problem.
+-> HashMap is a suitable data structure for this problem as it allows storage of data in a key - value pair.
+-> The product id will be the key which will have a list of details of product in value.
+-> It will efficient storage and access of elements.
+
+o	Analyze the time complexity of each operation (add, update, delete) in your chosen data structure.
+-> We are using a HashMap to implement the problem, so the time complexity is O(1) for each operation (add,update,delete).
+
+o	Discuss how you can optimize these operations.
+-> Secondary indexing can be used for faster searches on non-primary keys.
+
+The practical implementation can be accessed at: Exercise #1/InventoryManagementSystem/src/IMS/
+
