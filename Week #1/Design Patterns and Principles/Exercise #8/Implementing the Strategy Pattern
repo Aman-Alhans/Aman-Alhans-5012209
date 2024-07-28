@@ -1,3 +1,5 @@
+Implementing the Strategy Pattern
+
 Scenario:
 You are developing a payment system where different payment methods (e.g., Credit Card, PayPal) can be selected at runtime. Use the Strategy Pattern to achieve this.
 
