@@ -1,0 +1,8 @@
+Scenario:
+You are developing a stock market monitoring application where multiple clients need to be notified whenever stock prices change. 
+Use the Observer Pattern to achieve this.
+
+-> Observer Pattern has a one to many relation between objects so that one object changes its state, it dependencies are notified and updated.
+-> It is commonly used it Event Handling System, User Interface updates and in Mobile/Web development.
+
+The practical implementation can be accessed at: Exercise #7/ObserverPatternExample/src/observer/
