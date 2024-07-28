@@ -1,3 +1,5 @@
+Implementing the Observer Pattern
+
 Scenario:
 You are developing a stock market monitoring application where multiple clients need to be notified whenever stock prices change. 
 Use the Observer Pattern to achieve this.
