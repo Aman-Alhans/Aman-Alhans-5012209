@@ -1,0 +1,7 @@
+Scenario:
+You are developing a customer management application where the service class depends on a repository class. Use Dependency Injection to manage these dependencies.
+
+-> Dependency Injection revolves around a simple process of dependencies being injected through an external source
+-> For eg. a company is dependent on employees and the employees are dependent on the company.
+
+The practical implementation can be accessed at: Exercise #11/DependencyInjectionExample/src/dependency/
