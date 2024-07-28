@@ -1,3 +1,5 @@
+Implementing the Proxy Pattern
+
 Scenario:
 You are developing an image viewer application that loads images from a remote server. Use the Proxy Pattern to add lazy initialization and caching.
 
