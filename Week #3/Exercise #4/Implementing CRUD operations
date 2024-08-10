@@ -1,1 +1,3 @@
-''
+Implemented basic CRUD operation in the employee management system project.
+Create controller package with EmployerController and DepartmentController class performing operations such as create , read, update and delete of data for
+both classes respectively.
