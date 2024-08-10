@@ -1,9 +1,7 @@
 package com.example.EmployeeManagementSystem.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @NoArgsConstructor
 @Entity
