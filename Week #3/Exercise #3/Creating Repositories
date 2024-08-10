@@ -1,1 +1,8 @@
-''
+-> BENEFITS OF SPRING DATA REPOSITORIES:
+
+• They provide a better way to interact with database as there is no need to write the boilerplate code for CRUD operations.
+• Pagination and Sorting are built-in methods simplifying handling of large datasets.
+• Custom query can be written easily using @Query annotation.
+• It has integration with other Spring Modules such Spring Security, Spring AOP.
+• We can write queries based on methods, so there is no need to write SQL.
+
