@@ -1,0 +1,3 @@
+Added Pagination and Sorting to the EmployeeController and DepartmentController class with necessary changes for Repository interface of them.
+
+I changed @Queries of EmployeeRepository interface and instead added @NamedQueries for both Queries in Employee class.
