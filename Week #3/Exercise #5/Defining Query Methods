@@ -1,0 +1,4 @@
+In this to define queries I used @Query annotation to define the method findByEmployeeName in EmployeeRepository  with @Param in same and used @NamedQuery 
+annotation in entity Employee class to define the method findByDepartmentId with @Param in EmployeeRepository.
+
+Also, I could have define @Query for both methods in EmployeeRepository or use @NamedQueries to define both methods in entity Employee class.
