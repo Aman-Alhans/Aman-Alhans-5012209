@@ -1,0 +1,8 @@
+For this exercise Added Auding annotation to the project.
+
+-> Firstly, used @EnableJpaAuditing in the class where Main function is located.
+-> Secondly, used @EntityListeners(AuditingEntityListener.class) on top of both Employee and Department classes.
+-> Thirdly, created field such as createdBy, lastModifiedBy, createdDate, lastModifiedDate in both Employee and Department classes and added
+   @CreatedBy, @LastModifiedBy, @CreatedDate, @LastModifiedDate annotation respectively to the fields.
+-> I added @Getter and @Setter annotation using Lombok to both Employee and Department to avoid using unnecessary boilerplate code,
+   but i did'nt delete the Setter and Getter functions I created before just so that I can remember both of them.
