@@ -1,0 +1,12 @@
+In this exercise, added Projections to the project using three different methods:
+
+1) Interface-Based Projections ~ It is really simple and efficient way of adding projections and used when there is need of only a  subset fields.
+  -> Created a new package for projections and added an interface EmployeeProjection having custom method name such as getName(), getEmail() etc.
+  -> Added a method in EmployeeRepository which will return the projections with @Query also defined.
+
+2) Class-Based Projection ~ In this we use DTOs for more complex data transformation.
+  -> Created a new projection for DTO and added class EmployeeDTO having required attributes with @Getter and @Setter.
+  -> Added a method in EmployeeRepository which return the DTO with @Query also defined.
+
+3) @Value and Contruction Expression ~ It is used to define custom data transformation.
+  -> In interface EmployeeProjection added @Value to the field getDepartment() as it is not directly mapped in the database.
