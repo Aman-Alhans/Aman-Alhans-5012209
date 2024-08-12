@@ -1,4 +1,4 @@
-In this exercise, added Projections to the project using three different methods:
+In this exercise, added Projections to the project using three different methods :-
 
 1) Interface-Based Projections ~ It is really simple and efficient way of adding projections and used when there is need of only a  subset fields.
   -> Created a new package for projections and added an interface EmployeeProjection having custom method name such as getName(), getEmail() etc.
