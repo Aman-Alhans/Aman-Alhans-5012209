@@ -1,0 +1,14 @@
+-> For Hibernate Specific Features I added @BatchSize, @Fetch and @Type annotation to the project in class Employee and Department.
+-> Added required Hibernate dialect to the application.properties such spring.jpa.properties.hibernate.dialect , spring.jpa.properties.hibernate.hbm2dl and 2 more.
+
+-> I understand the advantage and disadvantage of hibernate which is that it gives extra functions to us but using Hibernate leads to platform dependency.
+
+-> I understand the code and the theory of hibernate.
+
+-> I understand everything I have done in Week #3, I also understand all the code and exercises behind it.
+
+-> I was not able remove an error which keeps occuring in the end code. I have perform multiple debugging to the code in order to understand what is happening and   
+    tried everything I could find on internet.
+
+-> This concept is really new to me and it is quite difficult to perform the tediuos tasks efficiently without any supervision in starting.
+-> I would request you to not mark the error and would also appreciate a solution or what I did wrong if possible.
