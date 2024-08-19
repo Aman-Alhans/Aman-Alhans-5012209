@@ -1,1 +1,21 @@
-''
+#The generated project structure was as follow:
+->src
+  -> Main 
+        -> java
+              ->packages
+        -> resources
+              -> application.properties(when it will be created)
+  -> Test
+        -> java
+            -> test APIs
+-> target
+  -> pom.xml
+  etc.
+
+#The new features introduced in Spring Boot 3 are:
+-> The Spring Boot 3 supports Java 17 and above versions.
+-> New updates to support compiling of Spring Boot Application to native images using GraalVM which leads to reduced memory footprint and faster startup time.
+-> Integration with Micrometer and support of new Metrics and tracing feature to improve observability.
+-> Improvements in HTTP/2, gRPC, and WebSocket support for building modern web applications.
+-> The Actuator module has been updated with new endpoints and better integration with observability tools.
+-> Introduced new configuration properties and enhancements to the Spring Boot configuration model to simplify application setup.
