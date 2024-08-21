@@ -1,1 +1,7 @@
-''
+-> Create GlobalExceptionHandler class in com.example.bookstoreapi.exception package which contains all possible exceptions that can occur in the project.
+-> The class contains all the exceptions as custom functions with error message and error cause inside the function.
+
+-> The in BookController class used the function from GlobalExceptionHandler class wherever a related exception can occur.
+
+-> The implemented methods of GlobalExceptionHandler is to handle and return the required HTTP status codes and messages.
+
