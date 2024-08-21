@@ -1,1 +1,4 @@
-''
+-> In controller class in function getBookByID implemented Path Variable which allows the function to fetch the details of the book by it's Id.
+
+-> In the same class for function searchBooks implemented Query Parameters which allowed filtering of books on basis of title and author.
+   -> Used If-Else If-Else condition to get books on basis of TitleAndAuthor, Title, Author and neither of them both.
