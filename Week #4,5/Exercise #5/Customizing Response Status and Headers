@@ -1,1 +1,3 @@
-''
+-> In BookController class, used @ResponseStatus annotation to specific HTTP codes dirctly in functions of the controller method.
+
+-> Later I used ResponseEntity to add custom header to their response which means used ResponseEntity as the return functions of the function in controller method.
