@@ -1,1 +1,11 @@
-''
+-> Created com.example.bookstoreapi.dto package which contained BookDTO and CustomerDTO classes.
+
+-> Then added Mapstruct and mapstruct-processor dependencies in pom.xml file.
+
+-> Created com.example.bookstoreapi.mapper package which contained BookMapper and CustomerMapper Interfaces having custome abstract classes of toDTO and toEntity.
+
+-> Added Customer Serialization and deserialization to BookDTO and CustomerDTO classes using @JsonPropert and @JsonFormat annotations.
+
+-> Updated BookController and CustomerController with DTOs and Mappers.
+
+
