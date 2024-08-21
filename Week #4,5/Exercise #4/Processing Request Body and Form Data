@@ -1,1 +1,5 @@
-''
+-> Created Customer entity class, CustomerRepository inteface and CustomerController class.
+
+-> In CustomerController class, created function createCustomer which accepted JSON request body to new customers.
+
+-> In same class, created function registerCustomer which handles form data submissions to create new customer.
