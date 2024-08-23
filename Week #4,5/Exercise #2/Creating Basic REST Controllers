@@ -1,4 +1,4 @@
--> Created Book class in com.example.bookstoreapi.model package and created repostiory for it.
+-> Created Book class in com.example.bookstoreapi.entity package and created repostiory for it.
 
 -> Then created BookController in com.example.bookstoreapi.controller package which implemented GET, POST, PUT and DELETE requests.
 
