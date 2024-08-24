@@ -1,1 +1,6 @@
-''
+-> Added CRUD operations which are Create, Read, Update and Delete endpoints operations to the Customer and Book by adding these operations in 
+   BookController and CustomerController classes.
+
+-> Added @NotNull, @Size and @Min in the Book and Customer class to their attributes depending on the data we want from them.
+
+-> The used @Version to implement locking for the continuously occuring updates.
