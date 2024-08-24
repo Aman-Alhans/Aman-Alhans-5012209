@@ -1,1 +1,7 @@
-''
+-> Added spring-boot-starter-actuatuor dependency in pom.xml file.
+
+-> Added expose actuator endpoints to the application.properties, it exposes a set of built-in endpoints which can also be customized.
+
+-> Created CustomMetricsService class in com.example.bookstoreapi.metrics package which is used to expose custom metrics by using 'MeterRegistry'.
+
+-> Added customerMetricService attribute and updateMetric to BookController class.
