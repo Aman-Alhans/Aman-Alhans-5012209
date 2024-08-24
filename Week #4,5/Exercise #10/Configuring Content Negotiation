@@ -1,1 +1,7 @@
-''
+-> Added spring-boot-started-web, jackson-databind, jaxb-api dependencies to pom.xml file.
+
+-> Created class Webconfig in package com.example.bookapi.config which implements WebMvcConfigurer. It is used to setup content negotiation in my application.
+
+-> Content Negotitation allow the controllers of the application to handle different media type using Accept headers.
+
+-> Added codes to BookController and CustomerController class to ensure that they can handle differnt media types and give response accordingly.
