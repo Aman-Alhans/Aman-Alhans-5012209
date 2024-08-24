@@ -1,4 +1,5 @@
 -> For Hibernate Specific Features I added @BatchSize, @Fetch and @Type annotation to the project in class Employee and Department.
+
 -> Added required Hibernate dialect to the application.properties such spring.jpa.properties.hibernate.dialect , spring.jpa.properties.hibernate.hbm2dl and 2 more.
 
 -> I understand the advantage and disadvantage of hibernate which is that it gives extra functions to us but using Hibernate leads to platform dependency.
