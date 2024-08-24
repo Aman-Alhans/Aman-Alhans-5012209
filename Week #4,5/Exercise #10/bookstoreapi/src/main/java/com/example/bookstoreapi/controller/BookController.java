@@ -22,7 +22,6 @@ public class BookController {
 	@Autowired
     private BookService bookService;
 
-    // Get all books with pagination and HATEOAS links
     @GetMapping(produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public ResponseEntity<Page<EntityModel<Book>>> getAllBooks(Pageable pageable) {
         Page<Book> books = bookService.getAllBooks(pageable);
@@ -35,7 +34,6 @@ public class BookController {
         return ResponseEntity.ok(bookResources);
     }
 
-    // Get a book by ID with HATEOAS links
     @GetMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public ResponseEntity<EntityModel<Book>> getBookById(@PathVariable Long id) {
         Optional<Book> book = bookService.getBookById(id);
@@ -49,7 +47,6 @@ public class BookController {
         }
     }
 
-    // Create a new book
     @PostMapping(consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
                  produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public ResponseEntity<EntityModel<Book>> createBook(@RequestBody Book book) {
@@ -60,7 +57,6 @@ public class BookController {
         return ResponseEntity.status(HttpStatus.CREATED).body(resource);
     }
 
-    // Update an existing book
     @PutMapping(value = "/{id}",
                 consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
                 produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
@@ -76,7 +72,6 @@ public class BookController {
         return ResponseEntity.ok(resource);
     }
 
-    // Delete a book by ID
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteBook(@PathVariable Long id) {
         if (!bookService.getBookById(id).isPresent()) {
