@@ -1,1 +1,8 @@
-''
+-> Added spring-boot-started-hateoas dependency to the pom.xml file.
+
+-> Extended the BookDTO and CustomerDTO classes to RepresentationModel.
+
+-> Updated the BookController class by adding HATEOAS links using the 'WebMvcLinkBuilder' in the function getBooksByID and getAllBooks().
+
+-> Similarly, Updated the CustomerController class by adding HATEOAS links using the 'WebMvcLinkBuilder' in the function getCustomersByID and getAllCustomers().
+
