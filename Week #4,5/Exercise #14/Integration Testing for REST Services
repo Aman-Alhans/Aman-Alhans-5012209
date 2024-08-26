@@ -1,1 +1,11 @@
-''
+-> In this exercise we were asked to create a setup for integration test.
+
+-> Dependencies such as spring-boot-starter-test, h2 -> test were required and added to the pom.xml file.
+
+-> Created BookControllerIntegrationTest class in the package com.example.bookstoreapi.controller to setup integration testing using annotations such as 
+   @SpringBootTest and @AutoConfigureMockMvc for end to end testing of REST endpoints.
+
+-> Changed Configure H2 Database to the application.properties file.
+
+-> Created a class BookRepostioryIntegrationTest in package com.example.bookstoreapi.repository and used @DataJpaTest, @ActiveProfiles etc annotations.
+
