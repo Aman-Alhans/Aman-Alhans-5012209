@@ -1,1 +1,11 @@
-''
+-> Added dependencies like junit-jupiter-api, junit-jupiter-engine, mockito-core, spring-boot-starter-test to the pom.xml.
+
+-> To setup MockMvc, added annotations and functions to the BookController class like @WebMvcTest, @Test etc.
+
+->  Created BookControllerTest Class to test and created different test methods that will help while testing the application.
+
+-> Test Coverage and Best Practices are:
+   ~ We should write a test for every method in our controller.
+   ~ We should always write test cases for edge cases such as missing fields, invalid data etc.
+   ~ We can use @MockBean which will allow to mock the service layer so that the test remains separated from controller logic.
+   ~ We should use assertions to verify correctness of response status, headers and body.
