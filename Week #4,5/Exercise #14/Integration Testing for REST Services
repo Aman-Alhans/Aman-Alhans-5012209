@@ -9,3 +9,4 @@
 
 -> Created a class BookRepostioryIntegrationTest in package com.example.bookstoreapi.repository and used @DataJpaTest, @ActiveProfiles etc annotations.
 
+-> As the files was more than 100 I uploaded the files as a zip file.
