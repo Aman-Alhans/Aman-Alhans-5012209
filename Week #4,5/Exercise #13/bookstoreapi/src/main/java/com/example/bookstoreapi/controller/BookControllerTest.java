@@ -40,16 +40,13 @@ public class BookControllerTest {
 
     @Test
     public void testCreateBook() throws Exception {
-        // Create a BookDTO
+        
         BookDTO bookDTO = new BookDTO(1L, "Sample Book", "Sample Author",1234D);
 
-        // Convert BookDTO to Book
         Book book = BookMapper.convertToBook(bookDTO);
 
-        // Mock the service call
         given(bookService.createBook(book)).willReturn(book);
 
-        // Perform the test using MockMvc
         mockMvc.perform(post("/books")
                 .contentType("application/json")
                 .content(new ObjectMapper().writeValueAsString(bookDTO)))
