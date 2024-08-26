@@ -1,1 +1,13 @@
-''
+-> Added security dependencies like spring-boot-starter-security, jjwt and spring-boot-starter-web.
+
+-> Created JwtUtil class in com.example.bookstoreapi.security package which handles JWT creation and validation.
+
+-> Created a SecurityConfig class in package com.example.bookstoreapi.config.
+
+-> Created a JwtRequestFilter which extends to OncePerRequestFilter in package com.example.bookstoreapi.security.
+
+-> In the com.example.bookstoreapi.controller package added AuthController class.
+
+-> Created WebConfig class which implements WebMvcConfigurer in package com.example.bookstoreapi.config which is used to handle CORS.
+
+-> Using all the above classes and functions in them the RESTful Services are now secured with JWD-based authentication.
