@@ -1,1 +1,9 @@
-''
+-> Added dependency springdoc-openapi-starter-webmvc-ui to the pom.xml file to enable Swagger in the project.
+
+-> Made changes to the BookController class to let them use Springdoc for API implementation by using @Tag, @Operation etc annotations.
+
+-> Using above I was able to add Swagger using Springdoc for API implementation.
+
+-> As there was more than 100 files I uploaded a zip file.
+
+-> I also uploaded a screenshot of the output which showed that the tomcat server was started and the bookstoreapi was running.
