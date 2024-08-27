@@ -10,5 +10,4 @@
 
 -> As the code was not able to get Bean for BookMapper and CustomerMapper interface, I manually created Bean for them in class MapperConfig.
 
--> This lead to tomcat server starting and the application running without any error as shown in the image i have uploaded.
 
